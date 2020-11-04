@@ -49,16 +49,12 @@ body {
 .wrapper {
     width: 87.5rem;
     margin: 0 auto;
-    // background-color: blue;
 }
 
 .loan-info {
-    // background-color: orange;
-    height: 20rem;
 
     &__wrapper {
         margin: 72px 259px 0px 137px;
-        // background-color: purple;
     }
 
     &__title  {
@@ -73,7 +69,7 @@ body {
         display: flex;
         margin-top: 29px;
         flex-direction: column;
-        height: 195px;
+        height: 200px;
         flex-wrap: wrap;
 
         &__item {
@@ -224,7 +220,7 @@ body {
 .loan-types {
 
     &__wrapper {
-        margin: 49px 259px 0px 137px;
+        margin: 34px 259px 0px 137px;
     }
 
     &__title  {

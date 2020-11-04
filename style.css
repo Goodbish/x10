@@ -26,10 +26,6 @@ body {
   margin: 0 auto;
 }
 
-.loan-info {
-  height: 20rem;
-}
-
 .loan-info__wrapper {
   margin: 72px 259px 0px 137px;
 }
@@ -54,7 +50,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 195px;
+  height: 200px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -213,7 +209,7 @@ body {
 }
 
 .loan-types__wrapper {
-  margin: 49px 259px 0px 137px;
+  margin: 34px 259px 0px 137px;
 }
 
 .loan-types__title {
