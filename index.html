@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='assets/css/normilize.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/inputrange.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main class="main">
+        <div class="loan-info">
+            <div class="wrapper">
+                <div class="loan-info__wrapper">
+                        <div class="loan-info__title">
+                            <h2>1. Данные о займе</h2>
+                        </div>
+                        <div class="loan-info__content">
+                            <div class="loan-info__content__item">
+                                <div class="loan-info__content__item__text">
+                                    <p>Сумма кредита: <span class="loan-info__content__item__text_underline">150 000 <span>&#8381</span> </span></p>
+                                </div>
+                                <div class="loan-info__content__item__input">
+                                    <hr class="loan-info__content__item__input_grey-left">
+                                    <img src="assets/icons/edge_L.png" alt="">
+                                    <input class="loan-info__content__item__input_first" type="range" min="0" max="1000" value="715">
+                                    <img src="assets/icons/edge_R.png" alt="">
+                                    <hr class="loan-info__content__item__input_grey-right">
+                                </div>
+                                <div class="loan-info__content__item__bottom-text loan-info__content__item__bottom-text_margin">
+                                    <div class="loan-info__content__item__bottom-text__lines">
+                                        <span>|</span>
+                                        <span>|</span>
+                                    </div>
+                                    <div class="loan-info__content__item__bottom-text__price">
+                                        <p>0 &#8381</p>
+                                        <p>4 300 000 &#8381</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="loan-info__content__item">
+                                <div class="loan-info__content__item__text">
+                                    <p>Отсрочка выплат: <span>2 <span>месяца</span> </span></p>
+                                </div>
+                                <div class="loan-info__content__item__input">
+                                    <input class="loan-info__content__item__input_second" type="range" min="0" max="1000" value="625">
+                                </div>
+                                <div class="loan-info__content__item__bottom-text">
+                                    <div class="loan-info__content__item__bottom-text__lines">
+                                        <span>|</span>
+                                        <span>|</span>
+                                    </div>
+                                    <div class="loan-info__content__item__bottom-text__price">
+                                        <p>0 месяцев</p>
+                                        <p>12 месяцев</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="loan-info__content__item">
+                                <div class="loan-info__content__item__text">
+                                    <p>Срок кредита: <span>8 <span>месяцев</span> </span></p>
+                                </div>
+                                <div class="loan-info__content__item__input">
+                                    <input class="loan-info__content__item__input_second" type="range" min="0" max="1000" value="625">
+                                </div>
+                                <div class="loan-info__content__item__bottom-text">
+                                    <div class="loan-info__content__item__bottom-text__lines">
+                                        <span>|</span>
+                                        <span>|</span>
+                                    </div>
+                                    <div class="loan-info__content__item__bottom-text__price">
+                                        <p>0 месяцев</p>
+                                        <p>12 месяцев</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="loan-info__content__button">
+                                <p>
+                                    РАССЧИТАТЬ
+                                </p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loan-types">
+            <div class="wrapper">
+                <div class="loan-types__wrapper">
+                    <div class="loan-types__title">
+                        <h2>2. Виды займов</h2>
+                        <p>ВЫБЕРИТЕ <span>ОДИН</span> ИЗ ВАРИАНТОВ</p>
+                    </div>
+
+                    <div class="loan-types__content">
+                        <div class="loan-types__content__item loan-types__content__item_active">
+                            <div class="loan-types__content__item__header">
+                                <h3><img src="assets/icons/radial_a.svg">Микрозаём «Рост» под залог</h3>
+                                <img src="assets/icons/X_h.svg" alt="close">
+                            </div>
+
+                            <div class="loan-types__content__item__info">
+                                <hr>
+                                <h4>ЗАЯВИТЕЛЬ:</h4>
+                                <p class="loan-types__content__item__info__text">
+                                    Заявители, соответcтвующие требованиям пунктов 3.1., 3.4. <br>
+                                    раздела 3 <a href="#">Правил предоставления микрозаймов</a>.
+                                </p>
+                                <h4>СРОК ДЕЯТЕЛЬНОСТИ</h4>
+                                <p class="loan-types__content__item__info__text">
+                                    От 0 месяцев (на цель: Развитие бизнеса); <br>
+                                    От 6 месяцев (на иные цели).
+                                </p>
+                                <h4>ПРОЦЕНТНАЯ СТАВКА (В % ГОДОВЫХ):</h4>
+                                <p class="loan-types__content__item__info__text">
+                                    Полуторократная ключевая ставка, установленная Банком России
+                                </p>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Поддержка 2020</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Микрозаём «Рост беззалоговый»</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Микрозаём «Приоритетный беззалоговый»</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Микрозаём Беззалоговый</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Микрозаём «Купеческий» под залог</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loan-types__content__item">
+                            <div class="loan-types__content__item__header">
+                                <div class="loan-types__content__item__header__view">
+                                    <div class="loan-types__content__item__header__view__left">
+                                        <img class="loan-types__content__item__header__open_disabled" src="assets/icons/radial_d.svg">
+                                        <h3>Поддержка 2020 беззалоговый»</h3>
+                                    </div>
+                                    <div class="loan-types__content__item__header__view__right">
+                                        <img src="assets/icons/arrow.svg" alt="arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calc-loan">
+            <div class="wrapper">
+                <div class="calc-loan__wrapper">
+                    <div class="calc-loan__title">
+                        <h2>3. Расчет платежей по микрозайму</h2>
+                    </div>
+    
+                    <div class="calc-loan__content">
+                        <div class="calc-loan__box">
+                            <div class="calc-loan__box__wrapper">
+                                <div class="calc-loan__box__content">
+                                    <div class="calc-loan__box__content__left">
+                                        <p>Сумма кредита: <span>150 000<span> &#8381</span></span></p>
+                                        <p>Процентаня ставка: <span>18,5<span> %</span></span></p>
+                                        <p>Переплата за кредит: <span>10 592<span> &#8381</span></span></p>
+                                        <p>Итоговая сумма: <span>160 591,94<span> &#8381</span></span></p>
+                                    </div>
+                                    <div class="calc-loan__box__content__right">
+                                        <p>
+                                            Ежемесячный платёж:<br>
+                                            <span>20 073,99 <span>&#8381</span></span> 
+                                        </p>
+
+                                        <div class="calc-loan__box__content__right__schedule">
+                                            <p>График платежей</p>
+                                            <div class="calc-loan__box__content__right__green-circle">
+                                                <img src="assets/icons/1_5.svg" alt="icon">
+                                            </div>
+                                            <div class="calc-loan__box__content__right__green-circle">
+                                                <img src="assets/icons/1_6.svg" alt="icon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="consultation">
+            <div class="wrapper">
+                <div class="consultation__wrapper">
+                    <div class="consultation__title">
+                        <h2>4. Консультация по займу</h2>
+                    </div>
+
+                    <div class="consultation__content">
+                        <div class="consultation__input">
+                            <div class="consultation__input__name">
+                                <div class="consultation__input__head">ВАШЕ ИМЯ</div>
+                                <input type="text" placeholder="Дориан Шмидт">
+                            </div>
+                            <div class="consultation__input__phone">
+                                <div class="consultation__input__head">ВАШ ТЕЛЕФОН</div>
+                                <input type="text" placeholder="+7 (919) 555-55-55">
+                            </div>
+                            <div class="consultation__input__mail">
+                                <div class="consultation__input__head">ЭЛЕКТРОННАЯ ПОЧТА</div>
+                                <input type="text" placeholder="dorian_schmidt@mail.com">
+                            </div>
+                        </div>
+                        <button class="consultation__button">
+                            <p>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</p>
+                        </button >
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
